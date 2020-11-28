@@ -27,15 +27,14 @@ export const styles = (theme) => {
                 flexDirection: 'column'
             }
         },
-        logoLink: {
-            display: 'flex'
+        upButtonLink: {
+            display: 'flex',
+            cursor: 'pointer'
         },
-        logo: {
-            height: 26,
+        upButton: {
+            height: 30,
             width: 'unset',
-            '& > g': {
-                stroke: 'currentColor'
-            }
+            fill: palette.light[900]
         },
         githubLink: {
             display: 'flex'

@@ -1,423 +1,566 @@
 {
-	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-	"basics": {
-		"name": "Shubham Bhandari",
-		"label": "Computer Science Engineer",
-		"picture": "",
-		"email": "dev.sb18@gmail.com",
-		"phone": "+91 7728891622",
-		"url": "http://richardhendricks.example.com",
-		"summary": "Computer Science Engineer",
-		"location": {
-			"address": "",
-			"postalCode": "",
-			"city": "Jaipur",
-			"countryCode": "IN",
-			"region": "Rajasthan"
-		},
-		"profiles": [
-			{
-				"network": "resume",
-				"username": "dev-SB",
-				"url": "https://bit.ly/cv-sb"
-			},
-			{
-				"network": "GitHub",
-				"username": "dev-SB",
-				"url": "https://github.com/dev-SB"
-			},
-			{
-				"network": "LinkedIn",
-				"username": "this-is-sb",
-				"url": "https://www.linkedin.com/in/this-is-sb"
-			},
-			{
-				"network": "Twitter",
-				"username": "this_isSB",
-				"url": "https://twitter.com/this_isSB"
-			},
-			{
-				"network": "Medium",
-				"username": "dev.sb18",
-				"url": "https://medium.com/@dev.sb18/"
-			},
-			{
-				"network": "Instagram",
-				"username": "this_is.sb",
-				"url": "https://www.instagram.com/this_is.sb/"
-			}
-		]
-	},
-	"work": [
-		{
-			"name": "Benpour Technologies Pvt Ltd",
-			"location": "Dehradun, India",
-			"description": "Software Development Company",
-			"position": "Summer Intern",
-			"url": "http://www.benpour.com/",
-			"startDate": "2019-05-15",
-			"endDate": "2019-06-29",
-			"summary": "Software and Website Development Company In Dehradun, Uttarakhand,",
-			"highlights": [
-				"In this 45 days summer internship, our team developed a facial recognition attendance system to mark the attendance of the employees of the organization.",
-				"The application was built using Python."
-			]
-		},
-		{
-			"name": "Youth Empowerment Foundation",
-			"location": "Delhi, India",
-			"description": "",
-			"position": "Android App Development Intern",
-			"url": "https://www.linkedin.com/company/yefindia/about/",
-			"startDate": "2018-04-01",
-			"endDate": "2018-05-01",
-			"summary": "Empower every children & youth of our society in such a way so that they can become self sufficient to fund their education with the help of their own skill sets.",
-			"highlights": [
-				"Developed an android app to help in peer to peer blood donation in the country",
-				"The app shows blood donors in a region, can be sorted by blood group",
-				"The app also has location and contact details of blood banks",
-				"Utilized Java and Firebase for the development"
-			]
-		}
-	],
-	"volunteer": [
-		{
-			"organization": "Mentors Without Borders",
-			"position": "Mentor",
-			"url": "https://www.mentorswithoutborders.net/",
-			"startDate": "2020-03-01",
-			"summary": "A group of passionate professionals who are teaching young people from all over the world how to enjoy the process of setting goals and taking steps towards these goals in their chosen fields.",
-			"highlights": []
-		}
-	],
-	"education": [
-		{
-			"institution": "JK Lakshmipat University",
-			"url": "https://www.jklu.edu.in/",
-			"area": "Computer Science Engineering",
-			"studyType": "Bachelor",
-			"startDate": "2017-07-17",
-			"endDate": "2021-07-17",
-			"gpa": "7.9",
-			"courses": []
-		},
-		{
-			"institution": "Maheshwari Public School",
-			"url": "https://mpspnjpr.com",
-			"area": "Science,Maths,IP",
-			"studyType": "High School",
-			"startDate": "2014-04-01",
-			"endDate": "2016-03-31",
-			"gpa": "76%",
-			"courses": []
-		}
-	],
-	"awards": [
-		{
-			"title": "Predictive Analytics Modeler 2020 - Mastery Award ",
-			"date": "2020-07-01",
-			"awarder": "IBM",
-			"summary": "https://www.youracclaim.com/badges/c6ea2f60-dba9-4711-a6b6-1b56c5eaef9a"
-		},
-		{
-			"title": "Business Intelligence Analyst v2",
-			"date": "2019-12-01",
-			"awarder": "IBM",
-			"summary": "https://www.youracclaim.com/badges/b9559a31-d5b2-4a54-8314-7837c6160120"
-		},
-		{
-			"title": "Neo4j Certified Professional",
-			"date": "2019-12-01",
-			"awarder": "Neo4j",
-			"summary": "https://graphacademy.neo4j.com/certificates/1a19f72938558c1d314f322ce9d499c837f6a7b716efa7f9958abb97ba9e4b98.pdf"
-		},
-		{
-			"title": "CodeChef Certified Data Structure & Algorithms Programme",
-			"date": "2019-01-01",
-			"awarder": "Codechef",
-			"summary": "https://www.codechef.com/certificates/public/d11f695"
-		}
-	],
-	"publications": [
-		{
-			"name": "CoronaVirus and The Internet",
-			"publisher": "Medium",
-			"releaseDate": "2020-10-19",
-			"url": "https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741",
-			"summary": "The Internet has shaped our 21st Century as we know it, let’s find out how COVID 19 has impacted one of the favorite babies of the century."
-		},
-		{
-			"name": "Web Scraping IPL Statistics",
-			"publisher": "Medium",
-			"releaseDate": "2019-08-11",
-			"url": "https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741",
-			"summary": "This article is regarding scraping player statistics from the official IPL website."
-		}
-	],
-	"skills": [
-		{
-			"name": "Machine Learning",
-			"level": "Master",
-			"value": 90,
-			"keywords": ["ML", "Deep Learning"]
-		},
-		{
-			"name": "Web Dev",
-			"level": "Master",
-			"value": 90,
-			"keywords": ["Machine Learning", "Data", "ML", "DS"]
-		},
-		{
-			"name": "Data Science",
-			"level": "Master",
-			"value": 90,
-			"keywords": ["Machine Learning", "Data", "ML", "DS"]
-		},
-		{
-			"name": "Python",
-			"level": "Master",
-			"keywords": ["Python3", "Python"]
-		},
-		{
-			"name": "Neo4j",
-			"level": "Master",
-			"keywords": ["Graph Database", "Database", "Graph"]
-		},
-		{
-			"name": "MySQL",
-			"level": "Master",
-			"keywords": ["OracleSQL", "MySQL"]
-		},
-		{
-			"name": "JavaScript",
-			"level": "Master",
-			"keywords": ["Javascript", "NodeJS"]
-		},
-		{
-			"name": "Angular",
-			"level": "Master",
-			"keywords": ["HTML", "CSS", "Javascript"]
-		},
-		{
-			"name": "ReactJS",
-			"level": "Master",
-			"keywords": ["HTML", "CSS", "Javascript"]
-		}
-	],
-	"languages": [
-		{
-			"language": "English",
-			"value": 95,
-			"fluency": "Full Professional Proficiency"
-		},
-		{
-			"language": "Hindi",
-			"value": 100,
-			"fluency": "Native speaker"
-		}
-	],
-	"interests": [
-		{
-			"name": "Competitive Programming",
-			"gifUrl": "https://media.giphy.com/media/gVlgj80ZLp9yo/giphy.gif",
-			"keywords": ["Programming"]
-		},
-		{
-			"name": "Blogging and Technical Writing",
-			"gifUrl": "https://media.giphy.com/media/l49JRQC9RNa5j35a8/giphy.gif",
-			"keywords": ["Blogging", "Writing"],
-			"gifUser": {
-				"name": "Shubham Bhandari",
-				"profileUrl": "https://medium.com/@dev.sb18",
-				"profileAvatarUrl": "https://media.giphy.com/media/3oAt28QFR1Cs5sEkQU/giphy.gif"
-			}
-		}
-	],
-	"references": [
-		{
-			"name": "",
-			"reference": ""
-		}
-	],
-	"projects": [
-		{
-			"index": 0,
-			"name": "Groundwater Management Solution",
-			"description": "A web app that Analysed and Visualized Ground Water Resources along with predictions",
-			"highlights": [
-				"Won award at AIHacks 2016",
-				"Built by all women team of newbie programmers",
-				"Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-			],
-			"keywords": ["Python", "Dash", "Plotly", "Time Series Analysis"],
-			"startDate": "2020-08-01",
-			"endDate": "2020-08-03",
-			"roles": ["Team lead", "Designer", "Developer"],
-			"type": "Web Application"
-		},
-		{
-			"index": 1,
-			"name": "Name Entity Recognition for Legal Judgments",
-			"description": "Name Entity Recognition for various entities in the Legal Judgments text files obtained from the Supreme Court of India.",
-			"keywords": [
-				"Deep Learning",
-				"Natural Language Processing",
-				"Python",
-				"Name Entity Recognition"
-			],
-			"startDate": "2020-05-01",
-			"endDate": "2020-06-30"
-		},
-		{
-			"index": 2,
-			"name": "Cricket ODI Analysis",
-			"description": "Analysis of ODI cricket matches played between 1970-2019.",
-			"keywords": ["Cricket", "Business Intelligence", "Python"],
-			"startDate": "2019-10-01",
-			"endDate": "2019-11-01",
-			"link": "https://github.com/dev-SB/cricket-bi"
-		},
-		{
-			"index": 3,
-			"name": "Sabrang Webapp",
-			"description": "This is an angular app created for the annual tech fest of my college.",
-			"keywords": ["TypeScript", "HTML", "CSS", "Angular"],
-			"startDate": "2019-09-13",
-			"endDate": "2019-09-30",
-			"link": "https://github.com/dev-SB/college-fest",
-			"roles": ["Designer", "Developer"],
-			"type": "application"
-		},
-		{
-			"index": 4,
-			"name": "IPLT20 Scraper",
-			"description": "A CLI web scraping application to extract stats from https://www.iplt20.com - the official website of Indian Premier League. The data is available for the years 2008-2019 along with some all-season stats.",
-			"keywords": ["Python", "BeautifulSoup4", "Web Scraping", "pyinquirer"],
-			"startDate": "2019-08-10",
-			"endDate": "2019-10-08",
-			"link": "https://github.com/dev-SB/iplt20-scraper",
-			"roles": ["Developer"],
-			"type": "CLI tool"
-		},
-		{
-			"index": 5,
-			"name": "Make Object Invisible",
-			"description": "A fun small Python script that can make object invisible using color detection and segmentation. The script makes any green colored object invisible. This behavior can be altered by providing hue range.",
-			"keywords": ["OpenCV", "Numpy", "Python"],
-			"startDate": "2018-07-24",
-			"endDate": "2018-07-24",
-			"link": "https://github.com/dev-SB/invisible-object",
-			"roles": ["Developer"],
-			"type": "Python Script"
-		},
-		{
-			"index": 6,
-			"name": "E-Kabadi Android App",
-			"description": "An android app for a college grown startup E-kabadi.",
-			"keywords": ["Java", "Android SDK", "Firebase"],
-			"startDate": "2019-09-01",
-			"endDate": "2019-09-30",
-			"roles": ["Designer", "Developer"],
-			"type": "Android App"
-		},
-		{
-			"index": 7,
-			"name": "FunLearn -Programming Quiz and Jokes- Amazon Alexa Skill",
-			"description": "A fun Amazon Alexa Skill for programmers. This is a quiz skill which can test programming knowledge of the user in four programming languages, namely Java, C, C++ and Python. This skill also has some jokes based on programmers and programming practices.",
-
-			"keywords": ["Amazon Alexa", "Alexa Skill Kit", "Javascript", "NodeJS"],
-			"startDate": "2018-05-05",
-			"endDate": "2018-05-12",
-			"link": "http://bit.ly/fun-learn-quiz",
-			"roles": ["Developer"],
-			"type": "Amazon Alexa Skill"
-		},
-		{
-			"index": 8,
-			"name": "Tele-operated Robotic Hand with Wireless Glove",
-			"description": "A robotic hand that can be remotely controlled using a wireless glove controller. The robotic hand mimics the action of its operator wearing the wireless glove.",
-
-			"keywords": ["Arduino", "Robotics", "Tele-operation"],
-			"startDate": "2018-04-01",
-			"endDate": "2018-05-31",
-			"link": "https://github.com/rohitbindal/Robotic-Arm",
-			"roles": ["Designer", "Developer"],
-			"type": "Tele-operated Robot"
-		},
-		{
-			"index": 9,
-			"name": "Blood Donation App",
-			"description": "A blood donation android app to facilitate peer-to-peer blood donation in the country.",
-			"keywords": ["Java", "Android SDK", "Firebase"],
-			"startDate": "2018-04-01",
-			"endDate": "2018-05-15",
-			"roles": ["Designer", "Developer"],
-			"type": "application"
-		},
-		{
-			"index": 10,
-			"name": "Steganographer Android App",
-			"description": "A fun android app to hide text inside an image (a technique called Steganography).",
-			"keywords": ["Java", "Android SDK", "Firebase", "Steganography"],
-			"startDate": "2018-04-01",
-			"endDate": "2018-04-10",
-			"link": "https://github.com/dev-SB/Steganographer-androidapp",
-			"roles": ["Designer", "Developer"],
-			"type": "Android Application"
-		},
-		{
-			"index": 11,
-			"name": "Find My Location",
-			"description": "A Google Assistant action that allows users to ask his current location address by saying 'Hey Google, talk to Find My Location.'",
-			"keywords": ["DialogFlow", "NodeJS", "JavaScript"],
-			"startDate": "2018-02-01",
-			"endDate": "2018-02-07",
-			"link": "http://bit.ly/find-my-location",
-			"roles": ["Developer"],
-			"type": "Google Assistant Action"
-		}
-	],
-	"specific": {
-		"basics": {
-			"visaSponsorship": true,
-			"personalDescription": "I'm a final year B.Tech Computer Science and Engineering Student with specialization in IBM Big Data Analytics. I was born and has been brought up in Jaipur, Rajasthan, India. I'm about to complete my Undergraduate degree and is ready to spread my wings and fly away into corporate world."
-		},
-
-		"education": { "studiesLevel": 4 },
-		"work": {
-			"contractTypes": ["permanent"],
-			"codingYears": 5,
-			"codingReason": "Programming is a Super Power",
-			"searchState": "activelySearching",
-			"experienceYears": 0,
-			"codeExperienceYears": 0,
-			"otherExperienceYears": 0
-		},
-		"sound": {
-			"embedUrl": "https://open.spotify.com/embed/playlist/2Fz0d2vTsv3DZH13SqTnZU"
-		},
-		"interestedBy": "Computer Vision, Machine Learning, Data Science, Deep Learning, Big Data Analytics"
-	},
-	"resumeCustomization": {
-		"imageHeader": {
-			"url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
-			"alt": "Default Banner"
-		},
-		"cardsOrder": [
-			{ "type": "basics", "variant": 4 },
-			{ "type": "projects", "variant": 4 },
-			{ "type": "skills", "variant": 0 },
-			{ "type": "experiences", "variant": 4 },
-			{ "type": "studies", "variant": 4 },
-			{ "type": "gifs", "variant": 0 },
-			{ "type": "interestedBy", "variant": 3 },
-			{ "type": "language", "variant": 4 },
-			{ "type": "soundtrack", "variant": 4 }
-		],
-		"fields": {
-			"work": {
-				"customDateFormat": "YYYY"
-			}
-		}
-	}
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Shubham Bhandari",
+    "label": "Computer Science Engineer",
+    "picture": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/photo%2Fsb.jpg?alt=media&token=ca3c1d5f-e97f-4d6c-b25b-6abfd5ed066f",
+    "email": "dev.sb18@gmail.com",
+    "phone": "+91 7728891622",
+    "url": "http://richardhendricks.example.com",
+    "summary": "Computer Science Engineer",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Jaipur",
+      "countryCode": "IN",
+      "region": "Rajasthan"
+    },
+    "profiles": [
+      {
+        "network": "resume",
+        "username": "dev-SB",
+        "url": "https://bit.ly/cv-sb"
+      },
+      {
+        "network": "GitHub",
+        "username": "dev-SB",
+        "url": "https://github.com/dev-SB"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "this-is-sb",
+        "url": "https://www.linkedin.com/in/this-is-sb"
+      },
+      {
+        "network": "Twitter",
+        "username": "this_isSB",
+        "url": "https://twitter.com/this_isSB"
+      },
+      {
+        "network": "Medium",
+        "username": "dev.sb18",
+        "url": "https://medium.com/@dev.sb18/"
+      },
+      {
+        "network": "Instagram",
+        "username": "this_is.sb",
+        "url": "https://www.instagram.com/this_is.sb/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Benpour Technologies Pvt Ltd",
+      "location": "Dehradun, India",
+      "description": "Software Development Company",
+      "position": "Summer Intern",
+      "url": "http://www.benpour.com/",
+      "startDate": "2019-05-15",
+      "endDate": "2019-06-29",
+      "summary": "Software and Website Development Company In Dehradun, Uttarakhand,",
+      "highlights": [
+        "In this 45 days summer internship, our team developed a facial recognition attendance system to mark the attendance of the employees of the organization.",
+        "The application was built using Python."
+      ]
+    },
+    {
+      "name": "Youth Empowerment Foundation",
+      "location": "Delhi, India",
+      "description": "",
+      "position": "Android App Development Intern",
+      "url": "https://www.linkedin.com/company/yefindia/about/",
+      "startDate": "2018-04-01",
+      "endDate": "2018-05-01",
+      "summary": "Empower every children & youth of our society in such a way so that they can become self sufficient to fund their education with the help of their own skill sets.",
+      "highlights": [
+        "Developed an android app to help in peer to peer blood donation in the country",
+        "The app shows blood donors in a region, can be sorted by blood group",
+        "The app also has location and contact details of blood banks",
+        "Utilized Java and Firebase for the development"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Mentors Without Borders",
+      "position": "Mentor",
+      "url": "https://www.mentorswithoutborders.net/",
+      "startDate": "2020-03-01",
+      "summary": "A group of passionate professionals who are teaching young people from all over the world how to enjoy the process of setting goals and taking steps towards these goals in their chosen fields.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "JK Lakshmipat University",
+      "url": "https://www.jklu.edu.in/",
+      "area": "Computer Science Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2017-07-17",
+      "endDate": "2021-07-17",
+      "gpa": "7.9",
+      "courses": []
+    },
+    {
+      "institution": "Maheshwari Public School",
+      "url": "https://mpspnjpr.com",
+      "area": "Science,Maths,IP",
+      "studyType": "High School",
+      "startDate": "2014-04-01",
+      "endDate": "2016-03-31",
+      "gpa": "76%",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Predictive Analytics Modeler 2020 - Mastery Award ",
+      "date": "2020-07-01",
+      "awarder": "IBM",
+      "summary": "https://www.youracclaim.com/badges/c6ea2f60-dba9-4711-a6b6-1b56c5eaef9a"
+    },
+    {
+      "title": "Business Intelligence Analyst v2",
+      "date": "2019-12-01",
+      "awarder": "IBM",
+      "summary": "https://www.youracclaim.com/badges/b9559a31-d5b2-4a54-8314-7837c6160120"
+    },
+    {
+      "title": "Neo4j Certified Professional",
+      "date": "2019-12-01",
+      "awarder": "Neo4j",
+      "summary": "https://graphacademy.neo4j.com/certificates/1a19f72938558c1d314f322ce9d499c837f6a7b716efa7f9958abb97ba9e4b98.pdf"
+    },
+    {
+      "title": "CodeChef Certified Data Structure & Algorithms Programme",
+      "date": "2019-01-01",
+      "awarder": "Codechef",
+      "summary": "https://www.codechef.com/certificates/public/d11f695"
+    }
+  ],
+  "publications": [
+    {
+      "name": "CoronaVirus and The Internet",
+      "publisher": "Medium",
+      "releaseDate": "2020-10-19",
+      "url": "https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741",
+      "summary": "The Internet has shaped our 21st Century as we know it, let’s find out how COVID 19 has impacted one of the favorite babies of the century."
+    },
+    {
+      "name": "Web Scraping IPL Statistics",
+      "publisher": "Medium",
+      "releaseDate": "2019-08-11",
+      "url": "https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741",
+      "summary": "This article is regarding scraping player statistics from the official IPL website."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Machine Learning",
+      "level": "Master",
+      "value": 90,
+      "keywords": [
+        "ML",
+        "Deep Learning"
+      ]
+    },
+    {
+      "name": "Web Dev",
+      "level": "Master",
+      "value": 90,
+      "keywords": [
+        "Machine Learning",
+        "Data",
+        "ML",
+        "DS"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "level": "Master",
+      "value": 90,
+      "keywords": [
+        "Machine Learning",
+        "Data",
+        "ML",
+        "DS"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": [
+        "Python3",
+        "Python"
+      ]
+    },
+    {
+      "name": "Neo4j",
+      "level": "Master",
+      "keywords": [
+        "Graph Database",
+        "Database",
+        "Graph"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Master",
+      "keywords": [
+        "OracleSQL",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Javascript",
+        "NodeJS"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "ReactJS",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "value": 95,
+      "fluency": "Full Professional Proficiency"
+    },
+    {
+      "language": "Hindi",
+      "value": 100,
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Competitive Programming",
+      "gifUrl": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/gifs%2Fcoding.gif?alt=media&token=a313d487-f671-472a-a756-6adeb3fe722b",
+      "keywords": [
+        "Programming"
+      ]
+    },
+    {
+      "name": "Blogging and Technical Writing",
+      "gifUrl": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/gifs%2Fwriting.gif?alt=media&token=8c34a4a8-e301-4392-bba9-a84316ecfc98",
+      "keywords": [
+        "Blogging",
+        "Writing"
+      ],
+      "gifUser": {
+        "name": "Shubham Bhandari",
+        "profileUrl": "https://medium.com/@dev.sb18",
+        "profileAvatarUrl": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/gifs%2Fmedium.gif?alt=media&token=4fa57ce3-4db7-4677-8b48-7acc4ec292e2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ],
+  "projects": [
+    {
+      "index": 0,
+      "name": "Groundwater Management Solution",
+      "description": "A web app that Analysed and Visualized Ground Water Resources along with predictions",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "Python",
+        "Dash",
+        "Plotly",
+        "Time Series Analysis"
+      ],
+      "startDate": "2020-08-01",
+      "endDate": "2020-08-03",
+      "roles": [
+        "Team lead",
+        "Designer",
+        "Developer"
+      ],
+      "type": "Web Application"
+    },
+    {
+      "index": 1,
+      "name": "Name Entity Recognition for Legal Judgments",
+      "description": "Name Entity Recognition for various entities in the Legal Judgments text files obtained from the Supreme Court of India.",
+      "keywords": [
+        "Deep Learning",
+        "Natural Language Processing",
+        "Python",
+        "Name Entity Recognition"
+      ],
+      "startDate": "2020-05-01",
+      "endDate": "2020-06-30"
+    },
+    {
+      "index": 2,
+      "name": "Cricket ODI Analysis",
+      "description": "Analysis of ODI cricket matches played between 1970-2019.",
+      "keywords": [
+        "Cricket",
+        "Business Intelligence",
+        "Python"
+      ],
+      "startDate": "2019-10-01",
+      "endDate": "2019-11-01",
+      "link": "https://github.com/dev-SB/cricket-bi"
+    },
+    {
+      "index": 3,
+      "name": "Sabrang Webapp",
+      "description": "This is an angular app created for the annual tech fest of my college.",
+      "keywords": [
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Angular"
+      ],
+      "startDate": "2019-09-13",
+      "endDate": "2019-09-30",
+      "link": "https://github.com/dev-SB/college-fest",
+      "roles": [
+        "Designer",
+        "Developer"
+      ],
+      "type": "application"
+    },
+    {
+      "index": 4,
+      "name": "IPLT20 Scraper",
+      "description": "A CLI web scraping application to extract stats from https://www.iplt20.com - the official website of Indian Premier League. The data is available for the years 2008-2019 along with some all-season stats.",
+      "keywords": [
+        "Python",
+        "BeautifulSoup4",
+        "Web Scraping",
+        "pyinquirer"
+      ],
+      "startDate": "2019-08-10",
+      "endDate": "2019-10-08",
+      "link": "https://github.com/dev-SB/iplt20-scraper",
+      "roles": [
+        "Developer"
+      ],
+      "type": "CLI tool"
+    },
+    {
+      "index": 5,
+      "name": "Make Object Invisible",
+      "description": "A fun small Python script that can make object invisible using color detection and segmentation. The script makes any green colored object invisible. This behavior can be altered by providing hue range.",
+      "keywords": [
+        "OpenCV",
+        "Numpy",
+        "Python"
+      ],
+      "startDate": "2018-07-24",
+      "endDate": "2018-07-24",
+      "link": "https://github.com/dev-SB/invisible-object",
+      "roles": [
+        "Developer"
+      ],
+      "type": "Python Script"
+    },
+    {
+      "index": 6,
+      "name": "E-Kabadi Android App",
+      "description": "An android app for a college grown startup E-kabadi.",
+      "keywords": [
+        "Java",
+        "Android SDK",
+        "Firebase"
+      ],
+      "startDate": "2019-09-01",
+      "endDate": "2019-09-30",
+      "roles": [
+        "Designer",
+        "Developer"
+      ],
+      "type": "Android App"
+    },
+    {
+      "index": 7,
+      "name": "FunLearn -Programming Quiz and Jokes- Amazon Alexa Skill",
+      "description": "A fun Amazon Alexa Skill for programmers. This is a quiz skill which can test programming knowledge of the user in four programming languages, namely Java, C, C++ and Python. This skill also has some jokes based on programmers and programming practices.",
+      "keywords": [
+        "Amazon Alexa",
+        "Alexa Skill Kit",
+        "Javascript",
+        "NodeJS"
+      ],
+      "startDate": "2018-05-05",
+      "endDate": "2018-05-12",
+      "link": "http://bit.ly/fun-learn-quiz",
+      "roles": [
+        "Developer"
+      ],
+      "type": "Amazon Alexa Skill"
+    },
+    {
+      "index": 8,
+      "name": "Tele-operated Robotic Hand with Wireless Glove",
+      "description": "A robotic hand that can be remotely controlled using a wireless glove controller. The robotic hand mimics the action of its operator wearing the wireless glove.",
+      "keywords": [
+        "Arduino",
+        "Robotics",
+        "Tele-operation"
+      ],
+      "startDate": "2018-04-01",
+      "endDate": "2018-05-31",
+      "link": "https://github.com/rohitbindal/Robotic-Arm",
+      "roles": [
+        "Designer",
+        "Developer"
+      ],
+      "type": "Tele-operated Robot"
+    },
+    {
+      "index": 9,
+      "name": "Blood Donation App",
+      "description": "A blood donation android app to facilitate peer-to-peer blood donation in the country.",
+      "keywords": [
+        "Java",
+        "Android SDK",
+        "Firebase"
+      ],
+      "startDate": "2018-04-01",
+      "endDate": "2018-05-15",
+      "roles": [
+        "Designer",
+        "Developer"
+      ],
+      "type": "application"
+    },
+    {
+      "index": 10,
+      "name": "Steganographer Android App",
+      "description": "A fun android app to hide text inside an image (a technique called Steganography).",
+      "keywords": [
+        "Java",
+        "Android SDK",
+        "Firebase",
+        "Steganography"
+      ],
+      "startDate": "2018-04-01",
+      "endDate": "2018-04-10",
+      "link": "https://github.com/dev-SB/Steganographer-androidapp",
+      "roles": [
+        "Designer",
+        "Developer"
+      ],
+      "type": "Android Application"
+    },
+    {
+      "index": 11,
+      "name": "Find My Location",
+      "description": "A Google Assistant action that allows users to ask his current location address by saying 'Hey Google, talk to Find My Location.'",
+      "keywords": [
+        "DialogFlow",
+        "NodeJS",
+        "JavaScript"
+      ],
+      "startDate": "2018-02-01",
+      "endDate": "2018-02-07",
+      "link": "http://bit.ly/find-my-location",
+      "roles": [
+        "Developer"
+      ],
+      "type": "Google Assistant Action"
+    }
+  ],
+  "specific": {
+    "basics": {
+      "visaSponsorship": true,
+      "personalDescription": "I'm a final year B.Tech Computer Science and Engineering Student with specialization in IBM Big Data Analytics. I was born and has been brought up in Jaipur, Rajasthan, India. I'm about to complete my Undergraduate degree and is ready to spread my wings and fly away into corporate world."
+    },
+    "education": {
+      "studiesLevel": 4
+    },
+    "work": {
+      "contractTypes": [
+        "permanent"
+      ],
+      "codingYears": 5,
+      "codingReason": "Programming is a Super Power",
+      "searchState": "activelySearching",
+      "experienceYears": 0,
+      "codeExperienceYears": 0,
+      "otherExperienceYears": 0
+    },
+    "sound": {
+      "embedUrl": "https://open.spotify.com/embed/playlist/2Fz0d2vTsv3DZH13SqTnZU"
+    },
+    "interestedBy": "Computer Vision, Machine Learning, Data Science, Deep Learning, Big Data Analytics"
+  },
+  "resumeCustomization": {
+    "imageHeader": {
+      "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+      "alt": "Default Banner"
+    },
+    "cardsOrder": [
+      {
+        "type": "basics",
+        "variant": 4
+      },
+      {
+        "type": "projects",
+        "variant": 4
+      },
+      {
+        "type": "skills",
+        "variant": 0
+      },
+      {
+        "type": "experiences",
+        "variant": 4
+      },
+      {
+        "type": "studies",
+        "variant": 4
+      },
+      {
+        "type": "gifs",
+        "variant": 0
+      },
+      {
+        "type": "interestedBy",
+        "variant": 3
+      },
+      {
+        "type": "language",
+        "variant": 4
+      },
+      {
+        "type": "soundtrack",
+        "variant": 4
+      }
+    ],
+    "fields": {
+      "work": {
+        "customDateFormat": "YYYY"
+      }
+    }
+  }
 }
