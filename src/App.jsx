@@ -105,7 +105,7 @@ function App() {
                             <Button
                                 variant="outlined"
                                 onClick={() => {
-                                    openLink(1);
+                                    openLink(0);
                                 }}
                                 color={'light'}
                             >
