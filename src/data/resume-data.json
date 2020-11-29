@@ -6,7 +6,7 @@
     "picture": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/photo%2Fsb.jpg?alt=media&token=ca3c1d5f-e97f-4d6c-b25b-6abfd5ed066f",
     "email": "dev.sb18@gmail.com",
     "phone": "+91 7728891622",
-    "url": "http://richardhendricks.example.com",
+    "url": "http://devsb.me",
     "summary": "Computer Science Engineer",
     "location": {
       "address": "",
@@ -57,10 +57,9 @@
       "url": "http://www.benpour.com/",
       "startDate": "2019-05-15",
       "endDate": "2019-06-29",
-      "summary": "Software and Website Development Company In Dehradun, Uttarakhand,",
+      "summary": "In this 45 days summer internship, our team developed a facial recognition attendance system to mark the attendance of the employees of the organization. The application was built using Python.",
       "highlights": [
-        "In this 45 days summer internship, our team developed a facial recognition attendance system to mark the attendance of the employees of the organization.",
-        "The application was built using Python."
+        "Software and Website Development Company In Dehradun, Uttarakhand."
       ]
     },
     {
@@ -71,12 +70,9 @@
       "url": "https://www.linkedin.com/company/yefindia/about/",
       "startDate": "2018-04-01",
       "endDate": "2018-05-01",
-      "summary": "Empower every children & youth of our society in such a way so that they can become self sufficient to fund their education with the help of their own skill sets.",
+      "summary": "Developed an android app to help in peer to peer blood donation in the country. The app shows blood donors in a region, can be sorted by blood group. The app also has location and contact details of blood banks. Utilized Java and Firebase for the development.",
       "highlights": [
-        "Developed an android app to help in peer to peer blood donation in the country",
-        "The app shows blood donors in a region, can be sorted by blood group",
-        "The app also has location and contact details of blood banks",
-        "Utilized Java and Firebase for the development"
+        "Empower every children & youth of our society in such a way so that they can become self sufficient to fund their education with the help of their own skill sets."
       ]
     }
   ],
@@ -104,7 +100,7 @@
     {
       "institution": "Maheshwari Public School",
       "url": "https://mpspnjpr.com",
-      "area": "Science,Maths,IP",
+      "area": "",
       "studyType": "High School",
       "startDate": "2014-04-01",
       "endDate": "2016-03-31",
@@ -294,9 +290,7 @@
       "name": "Groundwater Management Solution",
       "description": "A web app that Analysed and Visualized Ground Water Resources along with predictions",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+
       ],
       "keywords": [
         "Python",
@@ -503,7 +497,7 @@
   "specific": {
     "basics": {
       "visaSponsorship": true,
-      "personalDescription": "I'm a final year B.Tech Computer Science and Engineering Student with specialization in IBM Big Data Analytics. I was born and has been brought up in Jaipur, Rajasthan, India. I'm about to complete my Undergraduate degree and is ready to spread my wings and fly away into corporate world."
+      "personalDescription": "I'm a final year B.Tech Computer Science and Engineering Student with specialization in IBM Big Data Analytics. I was born and has been brought up in Jaipur, Rajasthan, India. I'm about to complete my Undergraduate degree in July 2021"
     },
     "education": {
       "studiesLevel": 4
@@ -513,7 +507,7 @@
         "permanent"
       ],
       "codingYears": 5,
-      "codingReason": "Programming is a Super Power",
+      "codingReason": "Programming is a Super Power.",
       "searchState": "activelySearching",
       "experienceYears": 0,
       "codeExperienceYears": 0,
