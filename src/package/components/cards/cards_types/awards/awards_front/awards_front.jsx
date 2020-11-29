@@ -64,7 +64,7 @@ const AwardsFrontComponent = ({ data, handleAddButtonClick }) => {
                     <ProfileCardButton onClick={handleButtonClick}>
                         <FormattedMessage
                             id="Awards.front.action"
-                            defaultMessage="See {count} award{count, plural, one {} other {s}}"
+                            defaultMessage="See {count} certifications{count, plural, one {} other {s}}"
                             values={{
                                 count: data.awards?.length
                             }}
@@ -80,13 +80,7 @@ const Content = ({ hasAward, awardTitle, handleAddButtonClick, classes }) => {
     if (hasAward) {
         return (
             <Typography variant="h2" component="h2" classes={{ container: classes.text }}>
-                <FormattedMessage
-                    id="Awards.front.title"
-                    defaultMessage="Certifications : "
-                    values={{
-                        emoji: (value) => <Twemoji svg text={value} />
-                    }}
-                />
+                <FormattedMessage id="Awards.front.title" defaultMessage="Certifications : " values={{}} />
                 {awardTitle}
             </Typography>
         );
@@ -94,7 +88,7 @@ const Content = ({ hasAward, awardTitle, handleAddButtonClick, classes }) => {
     return (
         <div className={classes.noAward}>
             <Typography variant="h3" component="h3" classes={{ container: classes.noAwardTypography }}>
-                <FormattedMessage id="Awards.front.noAward" defaultMessage="You didn't add any awards." />
+                <FormattedMessage id="Awards.front.noAward" defaultMessage="You didn't add any certifications." />
                 {awardTitle}
             </Typography>
             <NoDataButton
