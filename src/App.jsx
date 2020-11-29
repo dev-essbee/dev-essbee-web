@@ -11,8 +11,7 @@ import resumeData from './data/resume-data.json';
 import DeveloperProfile from './package';
 import { ReactComponent as SaveIcon } from './package/assets/icons/drop_file.svg';
 import SocialMediaButtons from 'react-social-media-buttons';
-import { ReactComponent as TwitterIcon } from './package/assets/icons/brands/twitter.svg';
-import { ReactComponent as LinkedInIcon } from './package/assets/icons/brands/linkedin.svg';
+
 import { styles } from './app_styles';
 
 const useStyles = createUseStyles(styles);

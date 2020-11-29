@@ -526,13 +526,21 @@
   },
   "resumeCustomization": {
     "imageHeader": {
-      "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
-      "alt": "Default Banner"
+      "url": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/photo%2Fbanner-image.png?alt=media&token=01176c17-cefb-430a-8846-975674cabf46",
+      "alt": "A snapshot of code from one of my projects."
     },
     "cardsOrder": [
       {
         "type": "basics",
+        "variant": 0
+      },
+      {
+        "type": "studies",
         "variant": 4
+      },
+      {
+        "type": "experiences",
+        "variant": 0
       },
       {
         "type": "projects",
@@ -540,7 +548,7 @@
       },
       {
         "type": "skills",
-        "variant": 0
+        "variant": 2
       },
       {
         "type": "awards",
@@ -551,24 +559,16 @@
         "variant": 4
       },
       {
-        "type": "experiences",
-        "variant": 4
-      },
-      {
-        "type": "studies",
-        "variant": 4
-      },
-      {
-        "type": "gifs",
-        "variant": 0
-      },
-      {
         "type": "interestedBy",
         "variant": 3
       },
       {
         "type": "language",
-        "variant": 4
+        "variant": 2
+      },
+      {
+        "type": "gifs",
+        "variant": 1
       },
       {
         "type": "soundtrack",
@@ -578,6 +578,49 @@
     "fields": {
       "work": {
         "customDateFormat": "YYYY"
+      }
+    },
+    "theme": {
+      "palette": {
+        "primary": {
+          "50": "#f6e6f0",
+          "100": "#edcce1",
+          "200": "#dc9ac2",
+          "300": "#ca67a4",
+          "400": "#b93585",
+          "500": "#a70267",
+          "600": "#860252",
+          "700": "#64013e",
+          "800": "#430129",
+          "900": "#210015",
+          "contrastDefaultColor": "light"
+        },
+        "secondary": {
+          "50": "#fee7ed",
+          "100": "#fccedb",
+          "200": "#f99eb6",
+          "300": "#f76d92",
+          "400": "#f43d6d",
+          "500": "#f10c49",
+          "600": "#c10a3a",
+          "700": "#91072c",
+          "800": "#60051d",
+          "900": "#30020f",
+          "contrastDefaultColor": "light"
+        },
+        "tertiary": {
+          "50": "#fff0ec",
+          "100": "#fee1d9",
+          "200": "#fdc4b3",
+          "300": "#fda68d",
+          "400": "#fc8967",
+          "500": "#fb6b41",
+          "600": "#c95634",
+          "700": "#974027",
+          "800": "#642b1a",
+          "900": "#32150d",
+          "contrastDefaultColor": "light"
+        }
       }
     }
   }
