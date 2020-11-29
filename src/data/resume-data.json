@@ -547,16 +547,16 @@
         "variant": 4
       },
       {
-        "type": "skills",
-        "variant": 2
-      },
-      {
         "type": "awards",
         "variant": 4
       },
       {
         "type": "publications",
         "variant": 4
+      },
+      {
+        "type": "skills",
+        "variant": 2
       },
       {
         "type": "interestedBy",

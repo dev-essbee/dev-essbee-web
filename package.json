@@ -1,7 +1,7 @@
 {
-    "name": "@welovedevs/react-ultimate-resume",
-    "version": "1.0.5-beta.32",
-    "description": "Developer profile for W3D",
+    "name": "@dev-sb/dev-sb-web",
+    "version": "0.0.1",
+    "description": "Developer profile of Shubham Bhandari",
     "main": "lib/index.js",
     "scripts": {
         "start": "touch .env.local && sh -ac 'sh .env.${NODE_ENV:-local}; PORT=${PORT:-3000} EXTEND_ESLINT=true BROWSER=none react-scripts start'",
@@ -23,9 +23,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/welovedevs/react-ultimate-resume.git"
+        "url": "git+https://github.com/dev-SB/dev-sb-web.git"
     },
-    "author": "WeLoveDevs.com",
+    "author": "Shubham Bhandari",
     "license": "AGPLv3",
     "peerDependencies": {
         "@material-ui/core": "^4.11.0",

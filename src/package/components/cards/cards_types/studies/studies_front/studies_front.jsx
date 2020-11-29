@@ -58,7 +58,7 @@ const Content = ({ hasEducation, data, handleAddButtonClick, classes }) => {
                 <ProfileCardFrontTypography classes={{ container: classes.typography }}>
                     <FormattedMessage
                         id="Studies.title"
-                        defaultMessage="I graduated from {schoolName}"
+                        defaultMessage="I will graduate from {schoolName}"
                         values={{ schoolName: data?.[0]?.institution }}
                     />
                 </ProfileCardFrontTypography>
