@@ -13,14 +13,14 @@ import { useCardSide } from '../../../../hooks/profile_card_hooks/use_card_side'
 import { useCardVariant } from '../../../../hooks/profile_card_hooks/use_card_variant';
 
 import { SIDES } from '../../../../commons/profile_card/profile_card_side/side';
-import { DEFAULT_PROJECT_IMAGE } from '../utils/images';
-import { styles } from './projects_front_styles';
+import { DEFAULT_PUBLICATION_IMAGE } from '../utils/images';
+import { styles } from './publications_front_styles';
 import { existsAndNotEmpty } from '../../../utils/exists_and_not_empty';
 import { NoDataButton } from '../../../../commons/no_data_button/no_data_button';
 
 const useStyles = createUseStyles(styles);
 
-const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
+const PublicationsFrontComponent = ({ data, handleAddButtonClick }) => {
     const [side, setSide] = useCardSide();
 
     const handleButtonClick = useCallback(() => setSide(side === SIDES.FRONT ? SIDES.BACK : SIDES.FRONT), [
@@ -29,24 +29,24 @@ const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
     ]);
 
     const [variant] = useCardVariant();
-    const imageSrc = useMemo(() => data.projects?.[0]?.images?.url ?? DEFAULT_PROJECT_IMAGE, [
-        data.projects?.[0]?.images
+    const imageSrc = useMemo(() => data.publications?.[0]?.images?.url ?? DEFAULT_PUBLICATION_IMAGE, [
+        data.publications?.[0]?.images
     ]);
-    const alt = data.projects?.[0]?.title;
+    const alt = data.publications?.[0]?.title;
 
-    const projectTitle = useMemo(() => {
-        if (!data.projects?.[0]) {
+    const publicationTitle = useMemo(() => {
+        if (!data.publications?.[0]) {
             return '';
         }
-        if (data.projects?.[0].name) {
-            return data.projects?.[0].name;
+        if (data.publications?.[0].name) {
+            return data.publications?.[0].name;
         }
-        return data.projects?.[0].description?.slice(0, 20) ?? '';
-    }, [data.projects?.[0]]);
+        return data.publications?.[0].description?.slice(0, 20) ?? '';
+    }, [data.publications?.[0]]);
 
     const classes = useStyles({ variant, hasImage: !!imageSrc });
 
-    const hasProject = useMemo(() => existsAndNotEmpty(data?.projects), [data]);
+    const hasPublication = useMemo(() => existsAndNotEmpty(data?.publications), [data]);
 
     return (
         <>
@@ -55,20 +55,20 @@ const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
             </div>
             <div className={classes.content}>
                 <Content
-                    hasProject={hasProject}
-                    projectTitle={projectTitle}
+                    hasPublication={hasPublication}
+                    publicationTitle={publicationTitle}
                     handleAddButtonClick={handleAddButtonClick}
                     classes={classes}
                 />
             </div>
-            {hasProject && (
+            {hasPublication && (
                 <ProfileCardActions>
                     <ProfileCardButton onClick={handleButtonClick}>
                         <FormattedMessage
-                            id="Projects.front.action"
-                            defaultMessage="See {count} project{count, plural, one {} other {s}}"
+                            id="Publications.front.action"
+                            defaultMessage="See {count} publication{count, plural, one {} other {s}}"
                             values={{
-                                count: data.projects?.length
+                                count: data.publications?.length
                             }}
                         />
                     </ProfileCardButton>
@@ -78,20 +78,23 @@ const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
     );
 };
 
-const Content = ({ hasProject, projectTitle, handleAddButtonClick, classes }) => {
-    if (hasProject) {
+const Content = ({ hasPublication, publicationTitle, handleAddButtonClick, classes }) => {
+    if (hasPublication) {
         return (
             <Typography variant="h2" component="h2" classes={{ container: classes.text }}>
-                <FormattedMessage id="Projects.front.title" defaultMessage="Projects : " values={{}} />
-                {projectTitle}
+                <FormattedMessage id="Publications.front.title" defaultMessage="Publications : " values={{}} />
+                {publicationTitle}
             </Typography>
         );
     }
     return (
-        <div className={classes.noProject}>
-            <Typography variant="h3" component="h3" classes={{ container: classes.noProjectTypography }}>
-                <FormattedMessage id="Projects.front.noProject" defaultMessage="You didn't add any projects." />
-                {projectTitle}
+        <div className={classes.noPublication}>
+            <Typography variant="h3" component="h3" classes={{ container: classes.noPublicationTypography }}>
+                <FormattedMessage
+                    id="Publications.front.noPublication"
+                    defaultMessage="You didn't add any publications."
+                />
+                {publicationTitle}
             </Typography>
             <NoDataButton
                 classes={{
@@ -99,10 +102,10 @@ const Content = ({ hasProject, projectTitle, handleAddButtonClick, classes }) =>
                 }}
                 handleAddButtonClick={handleAddButtonClick}
             >
-                <FormattedMessage id="Projects.noProject.buttonLabel" defaultMessage="Ajouter un projet" />
+                <FormattedMessage id="Publications.noPublication.buttonLabel" defaultMessage="Ajouter un projet" />
             </NoDataButton>
         </div>
     );
 };
 
-export const ProjectsFront = memo(ProjectsFrontComponent);
+export const PublicationsFront = memo(PublicationsFrontComponent);

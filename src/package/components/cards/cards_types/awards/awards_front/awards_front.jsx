@@ -13,14 +13,14 @@ import { useCardSide } from '../../../../hooks/profile_card_hooks/use_card_side'
 import { useCardVariant } from '../../../../hooks/profile_card_hooks/use_card_variant';
 
 import { SIDES } from '../../../../commons/profile_card/profile_card_side/side';
-import { DEFAULT_PROJECT_IMAGE } from '../utils/images';
-import { styles } from './projects_front_styles';
+import { DEFAULT_AWARD_IMAGE } from '../utils/images';
+import { styles } from './awards_front_styles';
 import { existsAndNotEmpty } from '../../../utils/exists_and_not_empty';
 import { NoDataButton } from '../../../../commons/no_data_button/no_data_button';
 
 const useStyles = createUseStyles(styles);
 
-const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
+const AwardsFrontComponent = ({ data, handleAddButtonClick }) => {
     const [side, setSide] = useCardSide();
 
     const handleButtonClick = useCallback(() => setSide(side === SIDES.FRONT ? SIDES.BACK : SIDES.FRONT), [
@@ -29,24 +29,22 @@ const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
     ]);
 
     const [variant] = useCardVariant();
-    const imageSrc = useMemo(() => data.projects?.[0]?.images?.url ?? DEFAULT_PROJECT_IMAGE, [
-        data.projects?.[0]?.images
-    ]);
-    const alt = data.projects?.[0]?.title;
+    const imageSrc = useMemo(() => data.awards?.[0]?.images?.url ?? DEFAULT_AWARD_IMAGE, [data.awards?.[0]?.images]);
+    const alt = data.awards?.[0]?.title;
 
-    const projectTitle = useMemo(() => {
-        if (!data.projects?.[0]) {
+    const awardTitle = useMemo(() => {
+        if (!data.awards?.[0]) {
             return '';
         }
-        if (data.projects?.[0].name) {
-            return data.projects?.[0].name;
+        if (data.awards?.[0].title) {
+            return data.awards?.[0].title;
         }
-        return data.projects?.[0].description?.slice(0, 20) ?? '';
-    }, [data.projects?.[0]]);
+        return data.awards?.[0].description?.slice(0, 20) ?? '';
+    }, [data.awards?.[0]]);
 
     const classes = useStyles({ variant, hasImage: !!imageSrc });
 
-    const hasProject = useMemo(() => existsAndNotEmpty(data?.projects), [data]);
+    const hasAward = useMemo(() => existsAndNotEmpty(data?.awards), [data]);
 
     return (
         <>
@@ -55,20 +53,20 @@ const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
             </div>
             <div className={classes.content}>
                 <Content
-                    hasProject={hasProject}
-                    projectTitle={projectTitle}
+                    hasAward={hasAward}
+                    awardTitle={awardTitle}
                     handleAddButtonClick={handleAddButtonClick}
                     classes={classes}
                 />
             </div>
-            {hasProject && (
+            {hasAward && (
                 <ProfileCardActions>
                     <ProfileCardButton onClick={handleButtonClick}>
                         <FormattedMessage
-                            id="Projects.front.action"
-                            defaultMessage="See {count} project{count, plural, one {} other {s}}"
+                            id="Awards.front.action"
+                            defaultMessage="See {count} award{count, plural, one {} other {s}}"
                             values={{
-                                count: data.projects?.length
+                                count: data.awards?.length
                             }}
                         />
                     </ProfileCardButton>
@@ -78,20 +76,26 @@ const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
     );
 };
 
-const Content = ({ hasProject, projectTitle, handleAddButtonClick, classes }) => {
-    if (hasProject) {
+const Content = ({ hasAward, awardTitle, handleAddButtonClick, classes }) => {
+    if (hasAward) {
         return (
             <Typography variant="h2" component="h2" classes={{ container: classes.text }}>
-                <FormattedMessage id="Projects.front.title" defaultMessage="Projects : " values={{}} />
-                {projectTitle}
+                <FormattedMessage
+                    id="Awards.front.title"
+                    defaultMessage="Certifications : "
+                    values={{
+                        emoji: (value) => <Twemoji svg text={value} />
+                    }}
+                />
+                {awardTitle}
             </Typography>
         );
     }
     return (
-        <div className={classes.noProject}>
-            <Typography variant="h3" component="h3" classes={{ container: classes.noProjectTypography }}>
-                <FormattedMessage id="Projects.front.noProject" defaultMessage="You didn't add any projects." />
-                {projectTitle}
+        <div className={classes.noAward}>
+            <Typography variant="h3" component="h3" classes={{ container: classes.noAwardTypography }}>
+                <FormattedMessage id="Awards.front.noAward" defaultMessage="You didn't add any awards." />
+                {awardTitle}
             </Typography>
             <NoDataButton
                 classes={{
@@ -99,10 +103,10 @@ const Content = ({ hasProject, projectTitle, handleAddButtonClick, classes }) =>
                 }}
                 handleAddButtonClick={handleAddButtonClick}
             >
-                <FormattedMessage id="Projects.noProject.buttonLabel" defaultMessage="Ajouter un projet" />
+                <FormattedMessage id="Awards.noAward.buttonLabel" defaultMessage="Ajouter un projet" />
             </NoDataButton>
         </div>
     );
 };
 
-export const ProjectsFront = memo(ProjectsFrontComponent);
+export const AwardsFront = memo(AwardsFrontComponent);

@@ -114,44 +114,54 @@
   ],
   "awards": [
     {
+      "index": 0,
       "title": "Predictive Analytics Modeler 2020 - Mastery Award ",
       "date": "2020-07-01",
       "awarder": "IBM",
-      "summary": "https://www.youracclaim.com/badges/c6ea2f60-dba9-4711-a6b6-1b56c5eaef9a"
+      "summary": "IBM, 2020",
+      "link": "https://www.youracclaim.com/badges/c6ea2f60-dba9-4711-a6b6-1b56c5eaef9a"
     },
     {
+      "index": 1,
       "title": "Business Intelligence Analyst v2",
       "date": "2019-12-01",
       "awarder": "IBM",
-      "summary": "https://www.youracclaim.com/badges/b9559a31-d5b2-4a54-8314-7837c6160120"
+      "summary": "IBM, 2019",
+      "link": "https://www.youracclaim.com/badges/b9559a31-d5b2-4a54-8314-7837c6160120"
     },
     {
+      "index": 2,
       "title": "Neo4j Certified Professional",
       "date": "2019-12-01",
       "awarder": "Neo4j",
-      "summary": "https://graphacademy.neo4j.com/certificates/1a19f72938558c1d314f322ce9d499c837f6a7b716efa7f9958abb97ba9e4b98.pdf"
+      "summary": "Neo4j, 2019",
+      "link": "https://graphacademy.neo4j.com/certificates/1a19f72938558c1d314f322ce9d499c837f6a7b716efa7f9958abb97ba9e4b98.pdf"
     },
     {
+      "index": 3,
       "title": "CodeChef Certified Data Structure & Algorithms Programme",
       "date": "2019-01-01",
-      "awarder": "Codechef",
-      "summary": "https://www.codechef.com/certificates/public/d11f695"
+      "awarder": "CodeChef",
+      "summary": "CodeChef, 2019",
+      "link": "https://www.codechef.com/certificates/public/d11f695"
     }
   ],
   "publications": [
     {
+      "index": 0,
       "name": "CoronaVirus and The Internet",
-      "publisher": "Medium",
+      "publisher": "Medium.com",
       "releaseDate": "2020-10-19",
-      "url": "https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741",
-      "summary": "The Internet has shaped our 21st Century as we know it, let’s find out how COVID 19 has impacted one of the favorite babies of the century."
+      "link": "https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741",
+      "description": "The Internet has shaped our 21st Century as we know it, let’s find out how COVID 19 has impacted one of the favorite babies of the century."
     },
     {
+      "index": 1,
       "name": "Web Scraping IPL Statistics",
-      "publisher": "Medium",
+      "publisher": "Medium.com",
       "releaseDate": "2019-08-11",
-      "url": "https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741",
-      "summary": "This article is regarding scraping player statistics from the official IPL website."
+      "link": "https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741",
+      "description": "This article is regarding scraping player statistics from the official IPL website."
     }
   ],
   "skills": [
@@ -531,6 +541,14 @@
       {
         "type": "skills",
         "variant": 0
+      },
+      {
+        "type": "awards",
+        "variant": 4
+      },
+      {
+        "type": "publications",
+        "variant": 4
       },
       {
         "type": "experiences",

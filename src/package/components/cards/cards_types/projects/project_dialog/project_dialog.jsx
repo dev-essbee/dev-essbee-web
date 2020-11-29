@@ -61,7 +61,7 @@ const ProjectDialogContent = ({ isEditing }) => {
     return (
         <>
             <div className={classes.headrow}>
-                <ProjectDialogContentTitle isEditing={isEditing} title={project.title} />
+                <ProjectDialogContentTitle isEditing={isEditing} title={project.name} />
                 <ProjectDialogContentDate isEditing={isEditing} date={project.data} />
             </div>
             <ProjectDialogContentDescription isEditing={isEditing} description={project.description} />
