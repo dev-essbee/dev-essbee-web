@@ -61,7 +61,7 @@ const FooterComponent = () => {
             <Tooltip title={<FormattedMessage id="Footer.github.tooltip" defaultMessage="Fork this Repository!" />}>
                 <a
                     className={classes.githubLink}
-                    href="https://github.com/dev-SB/react-ultimate-resume"
+                    href="https://github.com/dev-SB/dev-sb-web"
                     target="_bank"
                     rel="noreferer noopener"
                 >

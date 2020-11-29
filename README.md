@@ -1,4 +1,4 @@
-##DevSB
+## DevSB
 This is my portfolio website built upon [ReactJS](https://reactjs.org/).\
 The website derives its inspiration from 
 [React Ultimate Repository by We Love Devs](https://github.com/welovedevs/react-ultimate-resume).\
