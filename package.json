@@ -1,6 +1,6 @@
 {
     "name": "@dev-sb/dev-sb-web",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Developer profile of Shubham Bhandari",
     "main": "lib/index.js",
     "scripts": {

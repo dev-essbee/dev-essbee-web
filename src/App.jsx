@@ -32,7 +32,7 @@ function App() {
         JSON.stringify(data)
     ]);
     const [customization, setCustomization] = useState(resumeData.resumeCustomization || {});
-    console.log(data);
+    // console.log(data);
     const onCustomizationChanged = useCallback(setCustomization, [data]);
 
     const handleClick = useCallback(async () => {
