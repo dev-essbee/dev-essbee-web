@@ -111,6 +111,14 @@
   "awards": [
     {
       "index": 0,
+      "title": "Big Data Engineer - Mastery Award  ",
+      "date": "2021-01-05",
+      "awarder": "IBM",
+      "summary": "IBM, 2021",
+      "link": "https://www.youracclaim.com/badges/68bf1392-abe9-4215-9a71-f72b79a17382"
+    },
+    {
+      "index": 1,
       "title": "Predictive Analytics Modeler 2020 - Mastery Award ",
       "date": "2020-07-01",
       "awarder": "IBM",
@@ -118,15 +126,15 @@
       "link": "https://www.youracclaim.com/badges/c6ea2f60-dba9-4711-a6b6-1b56c5eaef9a"
     },
     {
-      "index": 1,
-      "title": "Business Intelligence Analyst v2",
+      "index": 2,
+      "title": "Business Intelligence Analyst Mastery Award",
       "date": "2019-12-01",
       "awarder": "IBM",
       "summary": "IBM, 2019",
-      "link": "https://www.youracclaim.com/badges/b9559a31-d5b2-4a54-8314-7837c6160120"
+      "link": "https://www.youracclaim.com/badges/2bd6db3f-e1cc-4f23-985d-cdb9b0619ae4"
     },
     {
-      "index": 2,
+      "index": 3,
       "title": "Neo4j Certified Professional",
       "date": "2019-12-01",
       "awarder": "Neo4j",
@@ -134,7 +142,7 @@
       "link": "https://graphacademy.neo4j.com/certificates/1a19f72938558c1d314f322ce9d499c837f6a7b716efa7f9958abb97ba9e4b98.pdf"
     },
     {
-      "index": 3,
+      "index": 4,
       "title": "CodeChef Certified Data Structure & Algorithms Programme",
       "date": "2019-01-01",
       "awarder": "CodeChef",
@@ -148,7 +156,7 @@
       "name": "CoronaVirus and The Internet",
       "publisher": "Medium.com",
       "releaseDate": "2020-10-19",
-      "link": "https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741",
+      "link": "https://medium.com/@dev.sb18/coronavirus-and-the-internet-989f7e820c53",
       "description": "The Internet has shaped our 21st Century as we know it, let’s find out how COVID 19 has impacted one of the favorite babies of the century."
     },
     {
