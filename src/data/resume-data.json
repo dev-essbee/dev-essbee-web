@@ -45,6 +45,19 @@
   },
   "work": [
     {
+      "name": "HashedIn By Deloitte",
+      "location": "Bangalore, India",
+      "description": "Software Development Company",
+      "position": "SDE Intern",
+      "url": "https://hashedin.com/",
+      "startDate": "2021-02-01",
+      "endDate": "",
+      "summary": "I am currently working as an Intern at HashedIn By Deloitte. Having successfully completed HashedIn University, currently I'm working on a project capable of converting Natural Language to SQL query.",
+      "highlights": [
+        "SaaS Company In Bangalore, India."
+      ]
+    },
+    {
       "name": "Benpour Technologies Pvt Ltd",
       "location": "Dehradun, India",
       "description": "Software Development Company",
