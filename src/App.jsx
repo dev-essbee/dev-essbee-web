@@ -87,8 +87,7 @@ function App() {
                                 links={[
                                     data.basics.profiles[1].url,
                                     data.basics.profiles[2].url,
-                                    data.basics.profiles[3].url,
-                                    data.basics.profiles[5].url
+                                    data.basics.profiles[3].url
                                 ]}
                                 buttonStyle={{
                                     margin: '0px 3px',
