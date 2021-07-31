@@ -5,7 +5,6 @@
     "label": "Computer Science Engineer",
     "picture": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/photo%2Fsb.jpg?alt=media&token=ca3c1d5f-e97f-4d6c-b25b-6abfd5ed066f",
     "email": "dev.sb18@gmail.com",
-    "phone": "+91 7728891622",
     "url": "http://devsb.me",
     "summary": "Computer Science Engineer",
     "location": {
@@ -48,11 +47,24 @@
       "name": "HashedIn By Deloitte",
       "location": "Bangalore, India",
       "description": "Software Development Company",
+      "position": "SDE-I",
+      "url": "https://hashedin.com/",
+      "startDate": "2021-06-26",
+      "endDate": "",
+      "summary": "I am currently working as SDE-I at HashedIn By Deloitte. Here, I'm working on a machine learning project.",
+      "highlights": [
+        "SaaS Company In Bangalore, India."
+      ]
+    },
+    {
+      "name": "HashedIn By Deloitte",
+      "location": "Bangalore, India",
+      "description": "Software Development Company",
       "position": "SDE Intern",
       "url": "https://hashedin.com/",
       "startDate": "2021-02-01",
-      "endDate": "",
-      "summary": "I am currently working as an Intern at HashedIn By Deloitte. Having successfully completed HashedIn University, currently I'm working on a project capable of converting Natural Language to SQL query.",
+      "endDate": "2021-06-25",
+      "summary": "I successfully completed HashedIn University: Hashedin's training bootcamp. During the internship I developed an application capable of converting Natural Language to SQL query.",
       "highlights": [
         "SaaS Company In Bangalore, India."
       ]
@@ -513,7 +525,7 @@
   "specific": {
     "basics": {
       "visaSponsorship": true,
-      "personalDescription": "I'm a final year B.Tech Computer Science and Engineering Student with specialization in IBM Big Data Analytics. I was born and has been brought up in Jaipur, Rajasthan, India. I'm about to complete my Undergraduate degree in July 2021"
+      "personalDescription": "I'm a graduate in Computer Science and Engineering with specialization in IBM Big Data Analytics. Currently I'm working as SDE-I at HashedIn By Deloitte. I belong to Jaipur, Rajasthan, India."
     },
     "education": {
       "studiesLevel": 4
