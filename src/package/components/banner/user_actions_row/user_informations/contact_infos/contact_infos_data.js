@@ -11,11 +11,6 @@ export const CONTACT_INFOS_DATA = Object.freeze({
         icon: PersonIcon,
         onlyDialog: true
     },
-    phone: {
-        path: 'basics.phone',
-        translation: translations.phone,
-        icon: PhoneIcon
-    },
     email: {
         path: 'basics.email',
         translation: translations.email,
