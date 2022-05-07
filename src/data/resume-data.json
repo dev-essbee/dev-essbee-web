@@ -18,27 +18,27 @@
       {
         "network": "resume",
         "username": "dev-SB",
-        "url": "https://bit.ly/cv-sb"
+        "url": "https://cv.devsb.me"
       },
       {
         "network": "GitHub",
         "username": "dev-SB",
-        "url": "https://github.com/dev-SB"
+        "url": "https://github.devsb.me"
       },
       {
         "network": "LinkedIn",
         "username": "this-is-sb",
-        "url": "https://www.linkedin.com/in/this-is-sb"
+        "url": "https://linkedin.devsb.me"
       },
       {
         "network": "Twitter",
         "username": "this_isSB",
-        "url": "https://twitter.com/this_isSB"
+        "url": "https://twitter.devsb.me"
       },
       {
         "network": "Medium",
         "username": "dev.sb18",
-        "url": "https://medium.com/@dev.sb18/"
+        "url": "https://medium.devsb.me"
       }
     ]
   },
@@ -171,6 +171,16 @@
     }
   ],
   "publications": [
+    {
+      "index": 0,
+      "name": "Design of Robotic Hand And Wireless Glove to Tele-Operate",
+      "publisher": "ACM",
+      "releaseDate": "2021-06-01",
+      "link": "https://link.growkudos.com/1agq4iruj9c",
+      "description": "We designed and developed a robotic hand that can be controlled using a specially designed glove wirelessly. Here, the glove is worn by the user and is used to control the Robotic Hand remotely. "
+    }
+  ],
+  "blog": [
     {
       "index": 0,
       "name": "CoronaVirus and The Internet",
@@ -317,9 +327,7 @@
       "index": 0,
       "name": "Groundwater Management Solution",
       "description": "A web app that Analysed and Visualized Ground Water Resources along with predictions",
-      "highlights": [
-
-      ],
+      "highlights": [],
       "keywords": [
         "Python",
         "Dash",
