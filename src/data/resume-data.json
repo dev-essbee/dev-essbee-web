@@ -3,42 +3,42 @@
   "basics": {
     "name": "Shubham Bhandari",
     "label": "Computer Science Engineer",
-    "picture": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/photo%2Fsb.jpg?alt=media&token=ca3c1d5f-e97f-4d6c-b25b-6abfd5ed066f",
+    "picture": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/photo%2Fsb.jpeg?alt=media&token=0f79b8db-5388-447f-b4db-d924001aecc5",
     "email": "contact@devsb.me",
     "url": "http://devsb.me",
     "summary": "Computer Science Engineer",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Jaipur",
+      "city": "Bangalore",
       "countryCode": "IN",
-      "region": "Rajasthan"
+      "region": "Karnataka"
     },
     "profiles": [
       {
         "network": "resume",
         "username": "dev-SB",
-        "url": "cv.devsb.me"
+        "url": "//short.devsb.me/cv"
       },
       {
         "network": "GitHub",
         "username": "dev-SB",
-        "url": "github.devsb.me"
+        "url": "https://github.com/dev-SB"
       },
       {
         "network": "LinkedIn",
         "username": "this-is-sb",
-        "url": "linkedin.devsb.me"
+        "url": "https://www.linkedin.com/in/this-is-sb/"
       },
       {
         "network": "Twitter",
         "username": "this_isSB",
-        "url": "twitter.devsb.me"
+        "url": "https://twitter.com/this_isSB"
       },
       {
         "network": "Medium",
         "username": "dev.sb18",
-        "url": "medium.devsb.me"
+        "url": "https://medium.com/@dev.sb18"
       }
     ]
   },
