@@ -248,15 +248,6 @@
   ],
   "skills": [
     {
-      "name": "Machine Learning",
-      "level": "Master",
-      "value": 90,
-      "keywords": [
-        "ML",
-        "Deep Learning"
-      ]
-    },
-    {
       "name": "Data Science",
       "level": "Master",
       "value": 90,
@@ -264,12 +255,15 @@
         "Machine Learning",
         "Data",
         "ML",
-        "DS"
+        "DS",
+        "ML",
+        "Deep Learning"
       ]
     },
     {
       "name": "Python",
       "level": "Master",
+      "value": 90,
       "keywords": [
         "Python3",
         "Python"
@@ -278,6 +272,7 @@
     {
       "name": "Neo4j",
       "level": "Master",
+      "value": 90,
       "keywords": [
         "Graph Database",
         "Database",
@@ -287,6 +282,7 @@
     {
       "name": "MySQL",
       "level": "Master",
+      "value": 90,
       "keywords": [
         "OracleSQL",
         "MySQL"
@@ -295,9 +291,20 @@
     {
       "name": "JavaScript",
       "level": "Master",
+      "value": 60,
       "keywords": [
         "Javascript",
-        "NodeJS"
+        "NodeJS",
+        "React",
+        "Angular"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Master",
+      "value": 55,
+      "keywords": [
+        "Kubeflow"
       ]
     }
   ],
