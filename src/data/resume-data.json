@@ -2,28 +2,28 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Shubham Bhandari",
-    "label": "Computer Science Engineer",
-    "picture": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/photo%2Fsb.jpeg?alt=media&token=0f79b8db-5388-447f-b4db-d924001aecc5",
-    "email": "contact@devsb.me",
-    "url": "http://devsb.me",
-    "summary": "Computer Science Engineer",
+    "label": "Aspiring Data Scientist",
+    "picture": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/photo%2FIMG_7214.jpg?alt=media&token=6d6ccc77-aace-425f-8fe2-9ae8fe474508",
+    "email": "contact@essbee.me",
+    "url": "http://essbee.me",
+    "summary": "Aspiring Data Scientist",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Bangalore",
-      "countryCode": "IN",
-      "region": "Karnataka"
+      "city": "Paris",
+      "countryCode": "FR",
+      "region": "Île-de-France"
     },
     "profiles": [
       {
         "network": "resume",
-        "username": "dev-SB",
-        "url": "//short.devsb.me/cv"
+        "username": "",
+        "url": "//short.essbee.me/cv"
       },
       {
         "network": "GitHub",
-        "username": "dev-SB",
-        "url": "https://github.com/dev-SB"
+        "username": "dev-essbee",
+        "url": "https://github.com/dev-essbee"
       },
       {
         "network": "LinkedIn",
@@ -47,11 +47,24 @@
       "name": "HashedIn By Deloitte",
       "location": "Bangalore, India",
       "description": "Software Development Company",
+      "position": "SDE-II",
+      "url": "https://hashedin.com/",
+      "startDate": "2023-04-01",
+      "endDate": "2023-08-11",
+      "summary": "I served as a key contributor in the development of an innovative platform that revolutionized the data science landscape. Leveraging an advanced technology stack, including Kubernetes, Kubeflow, AWS, EMR, MLflow, Grafana, Argo CD, and Concourse CI, I played a crucial role in empowering data scientists to create, test, develop, and deploy machine learning pipelines and models seamlessly. I enhanced the platform by seamlessly integrating Apache Spark, allowing data scientists to execute complex big data tasks directly from Jupyter notebooks within the platform. This integration streamlined the process of handling large-scale data and further extended the platform's capabilities.",
+      "highlights": [
+        "SaaS Company In Bangalore, India."
+      ]
+    },
+    {
+      "name": "HashedIn By Deloitte",
+      "location": "Bangalore, India",
+      "description": "Software Development Company",
       "position": "SDE-I",
       "url": "https://hashedin.com/",
       "startDate": "2021-06-26",
-      "endDate": "",
-      "summary": "I am currently working as SDE-I at HashedIn By Deloitte. Here, I'm working on a machine learning project.",
+      "endDate": "2023-03-31",
+      "summary": "I had the privilege of contributing to the development and enhancement of a cutting-edge Natural Language Processing (NLP) platform that transformed the way our client managed their inventory. My role encompassed integrating this powerful solution with the Azure Workspace platform, optimizing model performance, and automating labor-intensive labeling tasks, ultimately reducing human effort.The NLP platform I worked on has revolutionized our client's inventory management, empowering them to make data-driven decisions with ease.",
       "highlights": [
         "SaaS Company In Bangalore, India."
       ]
@@ -64,7 +77,7 @@
       "url": "https://hashedin.com/",
       "startDate": "2021-02-01",
       "endDate": "2021-06-25",
-      "summary": "I successfully completed HashedIn University: Hashedin's training bootcamp. During the internship I developed an application capable of converting Natural Language to SQL query.",
+      "summary": "I had the unique opportunity to spearhead the development of the core model for a pioneering platform that bridged the gap between natural language and SQL queries. My primary focus was on creating and fine-tuning the advanced model that formed the backbone of the system.The model I developed served as the foundation for our platform, unlocking the potential for non-technical users to interact with databases effortlessly. It has significantly expanded the accessibility and utility of data analysis and retrieval, transforming the way organizations leverage their data.",
       "highlights": [
         "SaaS Company In Bangalore, India."
       ]
@@ -108,14 +121,43 @@
   ],
   "education": [
     {
+      "institution": "ESSEC Business School",
+      "url": "https://www.essec.edu/en/",
+      "area": "Data Science and Business Analytics",
+      "studyType": "Masters",
+      "startDate": "2023-09-01",
+      "endDate": "2024-12-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Centrale-Supélec",
+      "url": "https://www.centralesupelec.fr/en",
+      "area": "Data Science and Business Analytics",
+      "studyType": "Masters",
+      "startDate": "2023-09-01",
+      "endDate": "2024-12-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
       "institution": "JK Lakshmipat University",
       "url": "https://www.jklu.edu.in/",
       "area": "Computer Science Engineering",
-      "studyType": "Bachelor",
+      "studyType": "Bachelors",
       "startDate": "2017-07-17",
       "endDate": "2021-07-17",
-      "gpa": "7.9",
-      "courses": []
+      "gpa": "8.06",
+      "courses": [
+        "Software Foundation and Programming",
+        "Calculus and Linear Algebra",
+        "Computer Based Numerical and Statistical Techniques",
+        "Computing with SAS",
+        "Business Intelligence",
+        "Artificial Intelligence and Machine Learning",
+        "Advanced Statistics",
+        "Deep Learning"
+      ]
     },
     {
       "institution": "Maheshwari Public School",
@@ -125,13 +167,19 @@
       "startDate": "2014-04-01",
       "endDate": "2016-03-31",
       "gpa": "76%",
-      "courses": []
+      "courses": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Informatics Practices",
+        "English Language"
+      ]
     }
   ],
   "awards": [
     {
       "index": 0,
-      "title": "Big Data Engineer - Mastery Award  ",
+      "title": "Big Data Engineer - Mastery Award",
       "date": "2021-01-05",
       "awarder": "IBM",
       "summary": "IBM, 2021",
@@ -139,7 +187,7 @@
     },
     {
       "index": 1,
-      "title": "Predictive Analytics Modeler 2020 - Mastery Award ",
+      "title": "Predictive Analytics Modeler 2020 - Mastery Award",
       "date": "2020-07-01",
       "awarder": "IBM",
       "summary": "IBM, 2020",
@@ -273,7 +321,7 @@
       ]
     },
     {
-      "name": "ReactJS",
+      "name": "React",
       "level": "Master",
       "keywords": [
         "HTML",
@@ -285,13 +333,18 @@
   "languages": [
     {
       "language": "English",
-      "value": 95,
+      "value": 100,
       "fluency": "Full Professional Proficiency"
     },
     {
       "language": "Hindi",
       "value": 100,
       "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "value": 20,
+      "fluency": "Elementary Proficiency"
     }
   ],
   "interests": [
@@ -300,6 +353,14 @@
       "gifUrl": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/gifs%2Fcoding.gif?alt=media&token=a313d487-f671-472a-a756-6adeb3fe722b",
       "keywords": [
         "Programming"
+      ]
+    },
+    {
+      "name": "Table Tennis",
+      "gifUrl": "https://firebasestorage.googleapis.com/v0/b/dev-sb-web-ultimate.appspot.com/o/gifs%2Ftable-tennis.gif?alt=media&token=634494ad-4f98-4a74-8700-46d62a137eb6",
+      "keywords": [
+        "Sports",
+        "Table Tennis"
       ]
     },
     {
@@ -533,7 +594,7 @@
   "specific": {
     "basics": {
       "visaSponsorship": true,
-      "personalDescription": "I'm a graduate in Computer Science and Engineering with specialization in IBM Big Data Analytics. Currently I'm working as SDE-I at HashedIn By Deloitte. I belong to Jaipur, Rajasthan, India."
+      "personalDescription": "I'm currently pursuing my Masters in Data Science and Business Intelligence from ESSEC Business School and CentraleSupelec. I belong to Jaipur, Rajasthan, India."
     },
     "education": {
       "studiesLevel": 4
@@ -542,11 +603,11 @@
       "contractTypes": [
         "permanent"
       ],
-      "codingYears": 5,
+      "codingYears": 7,
       "codingReason": "",
       "searchState": "openOpportunities",
-      "experienceYears": 0,
-      "codeExperienceYears": 0,
+      "experienceYears": 2,
+      "codeExperienceYears": 2.5,
       "otherExperienceYears": 0
     },
     "sound": {
