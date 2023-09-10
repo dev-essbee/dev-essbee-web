@@ -257,17 +257,6 @@
       ]
     },
     {
-      "name": "Web Dev",
-      "level": "Master",
-      "value": 90,
-      "keywords": [
-        "Machine Learning",
-        "Data",
-        "ML",
-        "DS"
-      ]
-    },
-    {
       "name": "Data Science",
       "level": "Master",
       "value": 90,
@@ -309,24 +298,6 @@
       "keywords": [
         "Javascript",
         "NodeJS"
-      ]
-    },
-    {
-      "name": "Angular",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
       ]
     }
   ],
