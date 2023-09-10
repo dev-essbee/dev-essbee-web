@@ -10,7 +10,7 @@ JSON based standard for resumes.\
 Discover the official schema [here](https://jsonresume.org/schema/).  
 
 The original [Demo profile ](https://vincent-cotro.welovedevs.com/)\
-My website: https://devsb.me
+My website: https://essbee.me
 
 ### To create your own website :
 > Clone the repo\
