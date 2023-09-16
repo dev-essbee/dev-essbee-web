@@ -18,7 +18,7 @@
       {
         "network": "resume",
         "username": "",
-        "url": "//short.essbee.me/cv"
+        "url": "https://www.icloud.com/iclouddrive/0daSemBOrhEEbZjla-tJG_FGg#Shubham-Bhandari-CV"
       },
       {
         "network": "GitHub",
@@ -53,7 +53,6 @@
       "endDate": "2023-08-11",
       "summary": "I served as a key contributor in the development of an innovative platform that revolutionized the data science landscape. Leveraging an advanced technology stack, including Kubernetes, Kubeflow, AWS, EMR, MLflow, Grafana, Argo CD, and Concourse CI, I played a crucial role in empowering data scientists to create, test, develop, and deploy machine learning pipelines and models seamlessly. I enhanced the platform by seamlessly integrating Apache Spark, allowing data scientists to execute complex big data tasks directly from Jupyter notebooks within the platform. This integration streamlined the process of handling large-scale data and further extended the platform's capabilities.",
       "highlights": [
-        "SaaS Company In Bangalore, India."
       ]
     },
     {
@@ -66,7 +65,6 @@
       "endDate": "2023-03-31",
       "summary": "I had the privilege of contributing to the development and enhancement of a cutting-edge Natural Language Processing (NLP) platform that transformed the way our client managed their inventory. My role encompassed integrating this powerful solution with the Azure Workspace platform, optimizing model performance, and automating labor-intensive labeling tasks, ultimately reducing human effort.The NLP platform I worked on has revolutionized our client's inventory management, empowering them to make data-driven decisions with ease.",
       "highlights": [
-        "SaaS Company In Bangalore, India."
       ]
     },
     {
@@ -92,7 +90,6 @@
       "endDate": "2019-06-29",
       "summary": "In this 45 days summer internship, our team developed a facial recognition attendance system to mark the attendance of the employees of the organization. The application was built using Python.",
       "highlights": [
-        "Software and Website Development Company In Dehradun, Uttarakhand."
       ]
     },
     {
@@ -105,7 +102,6 @@
       "endDate": "2018-05-01",
       "summary": "Developed an android app to help in peer to peer blood donation in the country. The app shows blood donors in a region, can be sorted by blood group. The app also has location and contact details of blood banks. Utilized Java and Firebase for the development.",
       "highlights": [
-        "Empower every children & youth of our society in such a way so that they can become self sufficient to fund their education with the help of their own skill sets."
       ]
     }
   ],
