@@ -81,7 +81,7 @@ const Content = ({ hasAward, awardTitle, handleAddButtonClick, classes }) => {
         return (
             <Typography variant="h2" component="h2" classes={{ container: classes.text }}>
                 <FormattedMessage id="Awards.front.title" defaultMessage="Certifications : " values={{}} />
-                {awardTitle}
+                {/* {awardTitle} */}
             </Typography>
         );
     }

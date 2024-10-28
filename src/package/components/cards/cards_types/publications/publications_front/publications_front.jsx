@@ -83,7 +83,7 @@ const Content = ({ hasPublication, publicationTitle, handleAddButtonClick, class
         return (
             <Typography variant="h2" component="h2" classes={{ container: classes.text }}>
                 <FormattedMessage id="Publications.front.title" defaultMessage="Publications : " values={{}} />
-                {publicationTitle}
+                {/* {publicationTitle} */}
             </Typography>
         );
     }

@@ -1,7 +1,7 @@
 {
     "name": "@dev-sb/dev-sb-web",
     "version": "1.0.0",
-    "description": "Developer profile of Shubham Bhandari",
+    "description": "Data Scientist profile of Shubham Bhandari",
     "main": "lib/index.js",
     "scripts": {
         "start": "touch .env.local && sh -ac 'sh .env.${NODE_ENV:-local}; PORT=${PORT:-3000} EXTEND_ESLINT=true BROWSER=none react-scripts start'",

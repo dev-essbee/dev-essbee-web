@@ -231,7 +231,7 @@
   "Projects.dialog.content.title": "Project title",
   "Projects.front.action": "See {count} project{count, plural, one {} other {s}}",
   "Projects.front.noProject": "You do not have any project yet !",
-  "Projects.front.title": "Projects : ",
+  "Projects.front.title": "Projects",
   "Projects.noProject.buttonLabel": "Add a project",
   "Projects.noProject.title": "Describe here your favorite project as a developer. This project can be professional project, a studies project or a side project",
   "Skills.Dialog.SliderValue": "{valueNode}%",
@@ -287,7 +287,7 @@
   "Awards.dialog.content.title": "Certification title",
   "Awards.front.action": "See {count} certification{count, plural, one {} other {s}}",
   "Awards.front.noCertification": "You do not have any certification yet !",
-  "Awards.front.title": "Certifications : ",
+  "Awards.front.title": "Certifications",
   "Awards.noAward.buttonLabel": "Add a certification",
   "Awards.noAward.title": "Describe here your favorite certification as a developer. This certification can be professional certification, a studies certification or a side certification",
   "Publication.details.dialog.title": "Publication details",
@@ -302,7 +302,7 @@
   "Publications.dialog.content.title": "Publication title",
   "Publications.front.action": "See {count} publication{count, plural, one {} other {s}}",
   "Publications.front.noPublication": "You do not have any publication yet !",
-  "Publications.front.title": "Publications : ",
+  "Publications.front.title": "Publications",
   "Publications.noPublication.buttonLabel": "Add a publication",
   "Publications.noPublication.title": "Describe here your favorite publication as a developer. This publication can be professional publication, a studies publication or a side publication"
 }

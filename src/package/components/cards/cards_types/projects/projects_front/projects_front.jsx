@@ -83,7 +83,7 @@ const Content = ({ hasProject, projectTitle, handleAddButtonClick, classes }) =>
         return (
             <Typography variant="h2" component="h2" classes={{ container: classes.text }}>
                 <FormattedMessage id="Projects.front.title" defaultMessage="Projects : " values={{}} />
-                {projectTitle}
+                {/* {projectTitle} */}
             </Typography>
         );
     }

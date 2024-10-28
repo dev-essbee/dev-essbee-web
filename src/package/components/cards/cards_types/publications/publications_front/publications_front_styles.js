@@ -29,7 +29,7 @@ export const styles = (theme) => {
             transform: 'rotate(-10deg)'
         },
         content: () => ({
-            padding: [spacing * 6, spacing * 12, 0],
+            padding: [spacing * 12, spacing * 18, 0],
             display: 'flex',
             flex: 1
         }),
